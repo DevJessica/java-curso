@@ -3,20 +3,38 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		int y = 32;
-		double e = 23.45678;
-		double x = 10.23435;
-		String nome = "Jessica";
-		int idade = 25;
-		double renda = 3500.0;
+		//int x ; 
+		//double y;
 		
-		//System.out.println("Ola mundo");
-		//System.out.println("Boa Noite Marido! EU TE AMO!");
+		//x = 5;
+		//y = 2 * x;
+		
+		//System.out.println(x);
 		//System.out.println(y);
-		//System.out.printf("%.2f%n", x);
-		//System.out.println("Resultado " + "=" + y);
-		//System.out.printf("Resultado = %.3f\n %.2f\n" , x,e);
-		System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n" , nome, idade,renda);
+		
+		//double b,B, h, area; Exercicio 2
+		
+		//Exercicio 3
+		//float b,B, h, area;
+		
+		//b = 6f;
+		//B = 8f;
+		//h = 5f;
+		
+		//area = (b+B) / 2f * h;
+		
+		//System.out.println(area);
+		
+		int a,b;
+		double resultado;
+		
+		a = 5;
+		b = 2;
+		
+		resultado = (double) a / b;
+		
+		System.out.println(resultado);
+		
 	}
 
 }
